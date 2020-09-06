@@ -22,7 +22,7 @@ print("Авторизация пройдена.")
 try:
     for event in longpoll.listen():
         if event.type == VkBotEventType.WALL_POST_NEW:
-            new_post = vk_phone.wall.get(owner_id = -group_id, count = 1, offset = 1)
+            new_post = vk_phone.wall.get(owner_id = -group_id, count = 1)
             new_post_id = new_post["items"][0].get("id")
 
             group_id_stringed = str(group_id)
