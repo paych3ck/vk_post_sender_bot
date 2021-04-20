@@ -1,5 +1,5 @@
-group_token = ""
-phone_number = ""
-password = ""
-group_id =  
-chat_list = []
+group_token = "" #str
+phone_number = "" #str
+password = "" #str
+group_id = #int
+chat_list = [] #list
