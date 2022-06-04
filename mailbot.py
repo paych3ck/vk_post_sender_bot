@@ -3,7 +3,7 @@ import time
 import requests
 
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
-from config import group_token, phone_number, password, chat_list, group_id
+from config import group_token, login, password, chat_list, group_id
 
 
 def handler_function():
