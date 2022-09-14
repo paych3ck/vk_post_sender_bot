@@ -1,5 +1,5 @@
-group_token = "" #str
-login = "" #str
-password = "" #str
-group_id = #int
-chat_list = [] #list
+group_token: str = "token"
+login: str = "login"
+password: str = "password"
+group_id: int = 1
+chat_list: list[int] = [1, 2, 3]
